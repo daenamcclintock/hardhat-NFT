@@ -20,6 +20,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         log("Verifying...")
         await verify(basicNft.address, arguments)
     }
+    log("----------------------------------------------------")
 }
 
 module.exports.tags = ["all", "basicnft", "main"]
