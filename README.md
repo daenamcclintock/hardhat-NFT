@@ -5,7 +5,13 @@
     - random at creation time
     - give true scarcity and randomness to NFT
     - hosted on IPFS
+    - Pros: Cheap
+    - Cons: Someone needs to pin our data
+
 3. Dynamic SVG NFT
     - image changes based on some parameters
     - hosted on-chain
+    - Pros: The data is stored on chain!
+    - Cons: MUCH more expensive in terms of gas costs
+    - We will use SVGs instead of PNGs for smaller files size
     
