@@ -13,5 +13,7 @@
     - hosted on-chain
     - Pros: The data is stored on chain!
     - Cons: MUCH more expensive in terms of gas costs
-    - We will use SVGs instead of PNGs for smaller files size
+    - We will use SVGs(scalable vector graphics) instead of PNGs for smaller files size
+
+If price of ETH is above X, the NFT will show a happy face, otherwise it will show a frown face
     
