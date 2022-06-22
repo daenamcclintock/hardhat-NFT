@@ -14,7 +14,8 @@ contract DynamicSvgNft is ERC721, Ownable {
 
     mapping(uint256 => int256) private s_tokenIdToHighValues;
     AggregatorV3Interface internal immutable i_priceFeed;
-    event CreatedNFT(uint256 indexed tokenId, int256 highValue);
+
+    event CreatedNFT(uint256 indexed tokenId, int256 highValue); // event is emitted when an NFT is created
 
     constructor(
         address priceFeedAddress,
